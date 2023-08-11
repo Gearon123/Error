@@ -19,12 +19,13 @@ namespace Guia_1_ejercicio_1
             far = cel * 9.0 / 5.0 + 32;
             //Se muestran los grados Fahrenheit
             Console.WriteLine("{0} grados Celsius son {1} grados Fahrenheit", cel, far);
-            {
-                static void Celsi()
-            }
-              
-              
-            
+
+
+
+
         }
-    }
+        static void Celsi(){
+            Console.WriteLine("aqui va el contenido de la funcion");
+        }
+}
 }
